@@ -22,13 +22,13 @@ client.login(config.token);
 
 client.on("ready", () => {
 
-    let ferinha = [
+    let space = [
 
         `estou viva! 🛰`,
         `utilize a.help para ver meus comandos!`
       ],
       fera = 0;
-    setInterval( () => client.user.setActivity(`${ferinha[fera++ % ferinha.length]}`, {
+    setInterval( () => client.user.setActivity(`${space[space++ % space.length]}`, {
           type: "PLAYING" //mais tipos: WATCHING / LISTENING
         }), 1000 * 30); 
     client.user
