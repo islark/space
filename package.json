@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "discord.js": "^13.10.3",
+    "quick.db": "^9.0.6",
+    "random-gif-api": "^1.0.5"
+  }
+}
