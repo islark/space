@@ -51,7 +51,7 @@ run: async(client, message, args) => {
 
       coletor_2.on("collect", (islark) => {
 
-        islarl.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islark.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let categoria = "Moderação";
 
