@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 module.exports = {
     name: "help V13",
-    author: "ferinha",
+    author: "islark",
 
 run: async(client, message, args) => {
 
@@ -32,9 +32,9 @@ run: async(client, message, args) => {
       let filtro_5 = (r, u) => r.emoji.name === '4️⃣' && u.id === message.author.id; let coletor_5 = msg.createReactionCollector({ filter: filtro_5});
       let filtro_6 = (r, u) => r.emoji.name === '❌' && u.id === message.author.id; let coletor_6 = msg.createReactionCollector({ filter: filtro_6});
 
-      coletor_1.on("collect", (ferinha) => {
+      coletor_1.on("collect", (islark) => {
         
-        ferinha.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islark.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let embed_2 = new Discord.MessageEmbed()
 
@@ -49,9 +49,9 @@ run: async(client, message, args) => {
       });
 
 
-      coletor_2.on("collect", (ferinha) => {
+      coletor_2.on("collect", (islark) => {
 
-        ferinha.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islarl.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let categoria = "Moderação";
 
@@ -67,9 +67,9 @@ run: async(client, message, args) => {
 
       });
 
-      coletor_3.on("collect", (ferinha) => {
+      coletor_3.on("collect", (islark) => {
 
-        ferinha.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islark.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let categoria = "Configuração";
 
@@ -85,9 +85,9 @@ run: async(client, message, args) => {
 
       });
 
-      coletor_4.on("collect", (ferinha) => {
+      coletor_4.on("collect", (islark) => {
 
-        ferinha.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islark.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let categoria = "Diversão";
 
@@ -103,9 +103,9 @@ run: async(client, message, args) => {
 
       });
 
-      coletor_5.on("collect", (ferinha) => {
+      coletor_5.on("collect", (islark) => {
 
-        ferinha.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islark.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let categoria = "Utilidade";
 
@@ -121,9 +121,9 @@ run: async(client, message, args) => {
         
       });
 
-      coletor_6.on("collect", (ferinha) => {
+      coletor_6.on("collect", (islark) => {
 
-        ferinha.users.remove(message.author.id); // Parte que retira a reação do usuário
+        islark.users.remove(message.author.id); // Parte que retira a reação do usuário
 
         let embed_7 = new Discord.MessageEmbed()
 
